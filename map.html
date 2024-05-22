@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+    <style>
+        html {
+            background: url(https://static.vecteezy.com/system/resources/previews/022/514/381/large_2x/natural-rustic-wood-backdrop-aged-wooden-texture-planks-for-a-vintage-look-backdrop-free-photo.jpeg) no-repeat center center fixed;
+            background-size: cover;
+            width: 100%;
+            overflow: auto;
+        }
+
+        #container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 80px;
+            left: 200px;
+            text-align: left;
+            color: rgb(13, 11, 14);
+            font-family: fasthand;
+            font-size: 28px;
+            overflow: auto;
+            height: 25%;
+            width: 25%;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 100px;
+            right: 130px;
+            text-align: left;
+            color: rgb(13, 11, 14);
+            font-family: fasthand;
+            font-size: 28px;
+            overflow: auto;
+            padding-left: 2%;
+            height: 25%;
+            width: 25%;
+        }
+
+        .middle {
+            position: absolute;
+            transform: translate(0%, -100%);
+            text-align: left;
+            color: rgb(13, 11, 14);
+            overflow: auto;
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 10px;
+            left: 100px;
+            text-align: left;
+            color: rgb(13, 11, 14);
+            font-family: fasthand;
+            font-size: 28px;
+            overflow: auto;
+            height: 25%;
+            width: 25%;
+        }
+
+        .bottom-right {
+            position: absolute;
+            bottom: 10px;
+            right: 20px;
+            text-align: left;
+            color: rgb(13, 11, 14);
+            font-family: fasthand;
+            font-size: 28px;
+            overflow: auto;
+            padding-left: 2%;
+            height: 25%;
+            width: 25%;
+        }
+
+        #book-img {
+            width: 100%;
+            height: 100%;
+            background: url("images/Book.png") no-repeat;
+            background-size: 100%;
+        }
+
+        #book-img:hover {
+            background: url("images/book_open.png") no-repeat;
+            background-size: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        
+    </div>
+    <div id="container" style="overflow: hidden;">
+        <img src="images/map.png"  width="100%" >
+
+
+        <!-- Dash Icon -->
+        <div class="middle">
+            <img src="images/dash.png" width="100%">
+        </div>
+
+        <!-- Book Button -->
+        <div class="top-left" style="top: 5%; left: 7%; width: 10%; height: 10%;">
+            <a href="book.html">
+                <div id="book-img">
+                </div>
+            </a>
+        </div>
+
+        <!-- Mountain Icon -->
+        <div class="top-left" style="top: 20%; left: 15%;">
+            <a href="mountain.html">
+                <img src="images/mountain.png" width="60%">
+            </a>
+        </div>
+
+        <!-- Boat Icon -->
+        <div class="bottom-right" style="bottom: 10%; right: 5%;">
+            <a href="boat.html">
+                <img src="images/boat.png" width="50%">
+            </a>
+        </div>
+
+        <!-- Cloud Icon -->
+        <div class="top-right" style="top: 10%; right: 5%;">
+            <a href="cloud.html">
+                <img src="images/cloud.png" width="60%">
+            </a>
+        </div>
+
+        <!-- Tree Icon -->
+        <div class="bottom-left" style="bottom: 15%; left: 20%;">
+            <a href="tree.html">
+                <img src="images/tree.png" width="60%">
+            </a>
+        </div>
+
+        
+
+    </div>
+</body>
+</html> 

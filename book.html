@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+    <style>
+
+        html {
+            background: url(https://static.vecteezy.com/system/resources/previews/022/514/381/large_2x/natural-rustic-wood-backdrop-aged-wooden-texture-planks-for-a-vintage-look-backdrop-free-photo.jpeg) no-repeat center center fixed;
+            background-size: cover;
+            width: 100%;
+            overflow: scroll;
+        }
+
+        #page0 {
+            font-family: fasthand;
+        }
+
+        #page1 {
+            font-family: fasthand;
+        }
+        
+        #page2 {
+            font-family: fasthand;
+        }
+
+        #page3 {
+            font-family: fasthand;
+        }
+
+        #page4 {
+            font-family: fasthand;
+        }
+
+        #page5 {
+            font-family: fasthand;
+        }
+
+        #page6 {
+            font-family: fasthand;
+        }
+
+        #page7 {
+            font-family: fasthand;
+        }
+
+        #page8 {
+            font-family: fasthand;
+        }
+
+        #page9 {
+            font-family: fasthand;
+        }
+
+        #page10 {
+            font-family: fasthand;
+        }
+
+        #page11 {
+            font-family: fasthand;
+        }
+
+        #page12 {
+            font-family: fasthand;
+        }
+
+        #container {
+          position: relative;
+          text-align: center;
+          color: white;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 100px;
+            left: 110px;
+            text-align: left;
+            color: rgb(13, 11, 14);
+            font-family: fasthand;
+            font-size: 28px;
+            overflow: auto;
+            height: 80%;
+            width: 40%;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 100px;
+            right: 130px;
+            text-align: left;
+            color: rgb(13, 11, 14);
+            font-family: fasthand;
+            font-size: 28px;
+            overflow: auto;
+            padding-left: 2%;
+            height: 80%;
+            width: 40%;
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 10px;
+            left: 100px;
+            text-align: left;
+            color: rgb(13, 11, 14);
+            font-family: fasthand;
+            font-size: 28px;
+            overflow: auto;
+            height: 10%;
+            width: 10%;
+        }
+
+        .bottom-right {
+            position: absolute;
+            bottom: 10px;
+            right: 20px;
+            text-align: left;
+            color: rgb(13, 11, 14);
+            font-family: fasthand;
+            font-size: 28px;
+            overflow: auto;
+            padding-left: 2%;
+            height: 10%;
+            width: 10%;
+        }
+
+        h4 {
+            text-align: left;
+            margin-top: -2%;
+            margin-left: 5%;
+            margin-bottom: 4%;
+            color: rgb(13, 11, 14);
+            font-family: fasthand;
+            font-size: 32px;
+        }
+
+        button {
+            text-align: left;
+            margin-top: -2%;
+            margin-left: 5%;
+            margin-bottom: 4%;
+            color: rgb(13, 11, 14);
+            font-family: fasthand;
+            font-size: 32px;
+            border: none;
+            background-color: inherit;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <img src="https://cdn.pixabay.com/photo/2016/08/08/06/48/journal-1577764_1280.png" style="width:100%;">
+       
+        <!-- Page 0 -->
+        <div id="page0" style="display: block;">
+            <div class="top-left" style=" text-align: center;"><h4>4 - 22 - 2024</h4>&emsp;&emsp;  <br>Unlike most journals, I am writing the first page last. This way I can share what I have created throughout this semester with others. Read this journal if you wish, as it is filled with entries written (nearly) every week, but otherwise, I made a map to every project on the next page. To find them all, you must climb the highest mountain, explore the largest sea, find the rare golden leaf, and become what no one else has. Go out! Explore! Find them! <br> <br> P.S. One of my projects is actually hidden at the end of this journal :)</div>
+            <div class="top-right">
+                <a href="map.html">
+                    <img src="images/map_book.png" height="90%" style="margin-left: 35%;">
+                </a>
+            </div>
+            <div class="bottom-right"><button onclick="nextPage()">&#11166;</button></div>
+
+        </div>
+
+        <!-- Page 1 -->
+        <div id="page1" style="display: none;">
+            <div class="top-left"><h4>1 - 20 - 2024</h4>&emsp;&emsp; While this is my second time taking this class, I am still learning! In my last class, we touched on HTML briefly but never focused on it for too long. This was especially more helpful because we are using Visual Studio code rather than Adobe Dreamweaver, where web design is easier but you don't really get the chance to fully understand the code behind the changes made. It is also nice to <span style="color: brown;">mess</span> <span style="color: orange;">with</span> <span style="color: chartreuse;">CSS</span> <span style="color: blueviolet;">again</span>. I have appreciated every lecture so far but have gotten occasionally bored from relearning a topic I have learned before. I don't necessarily find the time wasted, however, as relearning a topic can allow me to explore new aspects of it. Even now I am messing with the background in a way I have never done before. I specifically had to come back to this little project a day later because I wanted to make this the basis for all my weekly posts but I created it in such a way that different sized</div>
+            <div class="top-right">pages would completely disrupt the text and overflow off the book. That still happens when put to its extremes but I like what I have made nonetheless. Looking forward, I do think I will be learning things in CSS that I haven't before which is exciting. I think if I wanted to learn two things this semester it would be CSS and maybe implementing Javascript to html pages. Overall, I am excited to continue learning in this class and see what more I could do to this website (maybe make each entry a separate page but on the same webpage).</div>
+            <div class="bottom-right"><button onclick="nextPage()">&#11166;</button></div>
+            <div class="bottom-left"><button onclick="previousPage()">&#11164;</button></div>
+        </div>
+
+        <!-- Page 2 -->
+        <div id="page2" style="display: none;">
+            <div class="top-left"><h4>1 - 28 - 2024</h4>&emsp;&emsp; I really enjoyed this last week. Specifically, the class discussion that we had on the World Wide Web. Beginning with the CSS, while I do already understand the basics of CSS there is a lot to explore. One thing I did not know about, which I definitely wish I had known before, was the flexboxes. I wanted to use something like a flexbox for this webpage but wasn't certain as to what to look for. Currently, I have not implemented it as I do not have the time (and might not next week either) but I am hoping to use something similar on this page so the layout stays relatively the same when the webpage size is drastically changed.</div>
+            <div class="top-right">As for the discussion, while it was only the first I do think I will enjoy them a lot. I always love to learn something new about the internet as it is so young as a technology but has advanced so much already. It is also interesting to hear other people's views, standpoints, or context that I normally can't experience myself. I am excited to see how the other presentations turn out and what kind of discussions we can have. Otherwise, I have not done too much internet-wise outside of class. It's been busy and I haven't even got the chance to start the 5 variations project 0-0. Luckily I have ideas and a generally good sense of how CSS and HTML work so I am not going in completely in the dark, but I definitely appreciate the extended due date. </div>
+            <div class="bottom-right"><button onclick="nextPage()">&#11166;</button></div>
+            <div class="bottom-left"><button onclick="previousPage()">&#11164;</button></div>
+        </div>
+
+        <!-- Page 3 -->
+        <div id="page3" style="display: none;">
+            <div class="top-left"><h4>2 - 4 - 2024 </h4> &emsp;&emsp; Going straight into it, I was super excited to get into Javascript, even if we barely dipped our toes in it. It gave me the chance to finally add some cooler additions to this webpage! It still is in its infancy and I think I want to turn this into its own project over time, eventually putting it on the website we make for the art show. Otherwise, I still have a lot to learn with Javascript and am excited to see what we get into. So far from what I know, I was inspired to make separate "pages" on the book to read previous entries. I am used to coding for video games so I am sure there was a neater or quicker way to achieve the same thing but I like what I've made either way.</div>
+            <div class="top-right">Thinking about our discussion, I kept thinking about the accessibility of the internet. Something I wanted to mention in class during the discussion was the difference between things like the <b>&lt;b&gt;</b> tag and the <strong>&lt;strong&gt;</strong>. Visually, they both make the text bold but in the code, the <strong>&lt;strong&gt;</strong> tag is emphasized as important when using text to speech. So apparently there are many ways to already make things more accessible but I wouldn't have known about it aside from my curiosity on why two tags do the same thing. As for me and my life, things have been really busy and most of it has been school. For some reason, almost all of my classes have something due by the next class and that includes over the weekend (which is very rude of those classes). Luckily this class's work is not all that bad and if anything I do more than I need to sometimes out of interest.</div>
+            <div class="bottom-right"><button onclick="nextPage()">&#11166;</button></div>
+            <div class="bottom-left"><button onclick="previousPage()">&#11164;</button></div>
+        </div>
+
+        <!-- Page 4 -->
+        <div id="page4" style="display: none;">
+            <div class="top-left"><h4>2 - 11 - 2024 </h4> &emsp;&emsp; This last week was very inspiring! And busy but the class was inspiring! As I say this it is Sunday night and I have had around 4 hours of free time as of the entire weekend (not including the <b>4</b> hours of sleep I got each night). Oh well! I really liked getting back into P5! It was hard to remember everything at first but having the references page is very helpful. I’m excited to get further into it in order to do some strange happenings. I know we already discussed when we would learn objects and will be patiently awaiting that. Otherwise, gaining access to a canvas that is easy to use will be exciting. Especially because we were using P5 for a short period of time in my last internet art class.</div>
+            <div class="top-right">Currently, me and my roommates are watching the Super Bowl, not necessarily to watch the game but more for the advertisements. I would consider the ads a huge part of internet art as the internet <span style="color: red;">RAVES</span> over these things. It feels like missing one ad is like missing an entire season of a show everyone knows about. Especially due to the meme potential each one holds. Unfortunately, I feel the advertisements are getting worse every year. Or at least people seem to care less about putting effort into making these ads creative or unique. Maybe its just a fluke the past few years. Hopefully, that is.</div>
+            <div class="bottom-right"><button onclick="nextPage()">&#11166;</button></div>
+            <div class="bottom-left"><button onclick="previousPage()">&#11164;</button></div>
+        </div>
+
+        <!-- Page 5 -->
+        <div id="page5" style="display: none;">
+            <div class="top-left"><h4>3 - 3 - 2024 </h4> &emsp;&emsp; I continue to enjoy our use of P5. js. Everything I work on so far would be made much easier with classes and object-based code but I have been finding ways to avoid implementing it thus far. Especially since I would need to learn how P5.js does anything with objects first anyways (although since it's Javascript it should be similar if not the same as normal I would assume). Either way, it's nice getting back into this class. I enjoy coding and the way you have to think when creating something online. I was also out sick for a week and catching up on all my homework has been actual hell as I can hardly keep up with the workload as is. A little side rant, I know I am an art student but how can I be taking only 5 classes and still not have time to do anything other than the bare minimum required to survive as a human?</div>
+            <div class="top-right">I have never liked college for this reason. It feels useless half the time and takes up a majority if not all of my life at times. Wanna join a club? can't, I have several new projects due before tomorrow. Anyways, I could ramble on but my point is this class is an escape from that in a way. It's still homework and assignments but much less and also something I find comfort in doing. I can't wait to go further with P5.js and expand what I already know with it and hopefully express myself more openly while getting a calm from the storm. Lucky for me my last two semesters will only have 4 classes instead of 5! wooo!</div>
+            <div class="bottom-right"><button onclick="nextPage()">&#11166;</button></div>
+            <div class="bottom-left"><button onclick="previousPage()">&#11164;</button></div>
+        </div>
+
+        <!-- Page 6 -->
+        <div id="page6" style="display: none;">
+            <div class="top-left"><h4>3 - 10 - 2024 </h4> &emsp;&emsp; For my randomly generated object, I have been trying to make a randomly generated planet with a random amount of moons surrounding it. While P5js is super helpful and this would likely be impossible without its help, I so badly wish it remembered the shapes that were created. Trying to keep things contained in a circle would be so much simpler if I could just tell the new generation to not go outside of an object, but because P5 places things like paint on a canvas every way to keep something from generating off a shape is to use math. This is slightly frustrating when you are using circles and the math brings me back to trig in high school but I am surprisingly still having fun!</div>
+            <div class="top-right"> I love the feeling of puzzle and problem-solving and coding is basically that non-stop. Now that doesn't make it easier to do trigonometry at 8 in the morning on a Monday but it at least isn't all that stressful. I am excited to see how much I can make the original idea work. Worst case scenario, it would not be difficult to throw in an array of images but I think I have a rudimentary solution to my landmass problem. Otherwise, I am definitely excited to see what I can do once we are properly introduced to objects. I know in the last project I made a raincloud but I had to make it look silly because there were no objects.</div>
+            <div class="bottom-right"><button onclick="nextPage()">&#11166;</button></div>
+            <div class="bottom-left"><button onclick="previousPage()">&#11164;</button></div>
+        </div>
+
+        <!-- Page 7 -->
+        <div id="page7" style="display: none;">
+            <div class="top-left"><h4>3 - 24 - 2024 </h4> &emsp;&emsp; While there was not much class to talk about, as there was only class on Wednesday, I did appreciate seeing other people's projects. I feel like the further we get into coding and P5.js, the more people are able to truly create something unique and interesting. I especially like seeing what people create when they come from knowing almost nothing about programming previously. I feel like knowing how to code creates a certain programmer's mindset that is hard to escape, so seeing these out-of-the-box ideas and creations is really interesting! </div>
+            <div class="top-right">As for the next project, data can come from anywhere and have varying levels of importance so I am once again excited to see what others are planning. I personally still am not sure where I want to pick my data from, though I was thinking about using achievement data from my Xbox account as I do play a lot of games. Otherwise, I will probably just figure it out by stumbling upon something else and being inspired by it. I also don't know what I want to do with said data but I also don't think we talked entirely about what we have to use during this project yet.</div>
+            <div class="bottom-right"><button onclick="nextPage()">&#11166;</button></div>
+            <div class="bottom-left"><button onclick="previousPage()">&#11164;</button></div>
+        </div>
+
+        <!-- Page 8 -->
+        <div id="page8" style="display: none;">
+            <div class="top-left"><h4>3 - 31 - 2024 </h4> &emsp;&emsp; This past week was interesting because it started by working on one project and forgetting about it to write the final. For the last project, I was wanting to implement the dots I was using for the planet generator in a more abstract style. That got cut short but I might still mess around with it a little after finals are over. Speaking of finals, I originally planned to just make a portfolio page for my work in general, but I have been inspired by these weekly's to make one specifically for this class. I was wanting to take this journal and make it a lost journal with a map, plotting out all of the different assignments at different areas of the map.</div>
+            <div class="top-right">I could then make a different theme for each area and store each piece of work there. So far, the ideas are very broad but I like the concept and will definitely give it more time as I believe this is the idea I will go with. Of course, I would want it to act as a portfolio page still so I would need a home page button in a way. Maybe I will format it like a game, almost trying to solve something like a mystery about the book. The idea is still fresh but I am excited to put everything together. </div>
+            <div class="bottom-right"><button onclick="nextPage()">&#11166;</button></div>
+            <div class="bottom-left"><button onclick="previousPage()">&#11164;</button></div>
+        </div>
+
+        <!-- Page 9 -->
+        <div id="page9" style="display: none;">
+            <div class="top-left"><h4>4 - 7 - 2024 </h4> &emsp;&emsp; While I was sick for the past week, I was still thinking about all of the ideas I have for the final project. I am hoping class work days are enough time to finish the final though because I am drowning in finals (like normal). Luckily though, I think what I have to work on is manageable enough with the time I have, I just won't have a moment to breath for 2 more weeks. Despite that, I am excited because my final is going to be very interactive and hopefully similar to a game. I will need to create a bunch of different scenes and symbols but that shouldn't take too long all things considered.</div>
+            <div class="top-right"> Otherwise, the only things on my mind right now are my other finals, such as figuring out my last 2 film projects, a group animation project, and a 10 page paper, all in 2 weeks. I don't know if it's a good thing or not that I am busy next weekend but that means fun concert for me and homework time some other time that week. Either way, it's time for this college kid to bunker down and begin my descent towards the end of the semester. One nice thing about being an art student is having my finals done when classes are done, rather than an extra week or two of finals.</div>
+            <div class="bottom-right"><button onclick="nextPage()">&#11166;</button></div>
+            <div class="bottom-left"><button onclick="previousPage()">&#11164;</button></div>
+        </div>
+
+        <!-- Page 10 -->
+        <div id="page10" style="display: none;">
+            <div class="top-left"><h4>4 - 14 - 2024 </h4> &emsp;&emsp; This past week and weekend have been more than hectic. Finals of course are still ongoing, but mostly halfway done at this point so that's nice! Other than a few projects, I have planned out when I can work on everything and still have time to sleep. As for the other projects, I will figure that out when I get there. I of course planned 2 concerts for this past weekend as well, completely neglecting the fact that they were both during finals and not wanting to waste the money I spent (or the opportunity to see these bands). As for the final in this class, I have most of the basics set up and I should hopefully be able to rush through a lot of the other pages easily. </div>
+            <div class="top-right"> The only other thing would be drawing the symbols for everything and writing an extra page or two so the "story" makes sense. That will be interesting because I will be acting like someone found this journal and if they read it they end up hearing about me making the webpage so it kind of breaks the immersion but I like that about it. I'm creating an interactive experience that doesn't need to be taken seriously and can still be enjoyable (hopefully). As for me now, I worked on an animation all day and now it is time for me to settle down and get ready for bed. There may not be any class tomorrow, but this project still needs to be made. Bright and early I'll be. Until then, farewell!</div>
+            <div class="bottom-right"><button onclick="nextPage()">&#11166;</button></div>
+            <div class="bottom-left"><button onclick="previousPage()">&#11164;</button></div>
+        </div>
+
+        <!-- Page 11 -->
+        <div id="page11" style="display: none;">
+            <div class="top-left"><h4>4 - 21 - 2024 </h4> &emsp;&emsp;  It's the final week (and weekend)!! I am exhausted physically, mentally, and emotionally thanks to my girlfriend semi-ignoring me all week, but I still love her. But after this assignment and one other, I am COMPLETELY DONE. Well, not including the actual critiques I have Monday but I won't have to do any more work after that! I am immensely excited and absolutely need this summer break. Until then, it's project time. So far, this final is about halfway finished, with this half being much quicker to complete than the first. I did plan the project thinking we did 4 exercises though so I am going to have to throw the 5th one in there somehow. Other than that, everything is going according to plan and should be complete by the end of today. As for my other project... yeah, that hasn't been started yet but I am sure I will figure something out.</div>
+            <div class="top-right"> The discussion this week was interesting too! Well, discussions I suppose. I really liked discussing AI and how it might impact a lot of our future in the time to come, such as education and art. This is especially apparent to our class given it's an art-related class based on the internet, where AI has the full potential to take work and claim it as its own. Oh well, I am sure people will figure out how to balance AI and ownership in time but as far as I am concerned, the people who don't care about artist ownership aren't the type of people I make work for anyway.</div>
+            <div class="bottom-right"><button onclick="nextPage()">&#11166;</button></div>
+            <div class="bottom-left"><button onclick="previousPage()">&#11164;</button></div>
+        </div>
+
+        <!-- Page 12 -->
+        <div id="page12" style="display: none;">
+            <div class="top-left"><h4></h4> &emsp;&emsp;  </div>
+            <div class="top-right">
+
+                <a href="exercise_3/index.html">
+                    <img src="images/portal.gif" width="90%" style="margin-left: 5%;">
+                </a>
+
+            </div>
+            
+            <div class="bottom-left"><button onclick="previousPage()">&#11164;</button></div>
+        </div>
+
+    </div>
+
+    <script>
+        var page = 0;
+        var page0 = document.getElementById("page0");
+        var page1 = document.getElementById("page1");
+        var page2 = document.getElementById("page2");
+        var page3 = document.getElementById("page3");
+        var page4 = document.getElementById("page4");
+        var page5 = document.getElementById("page5");
+        var page6 = document.getElementById("page6");
+        var page7 = document.getElementById("page7");
+        var page8 = document.getElementById("page8");
+        var page9 = document.getElementById("page9");
+        var page10 = document.getElementById("page10");
+        var page11 = document.getElementById("page11");
+        var page12 = document.getElementById("page12");
+
+
+        function nextPage() {
+            var x = document.getElementById("container");
+          
+            page += 1;
+
+            checkPage();
+        }
+
+        function previousPage() {
+            var x = document.getElementById("container");
+        
+            page -= 1;
+
+            checkPage();
+        }
+
+        function checkPage() {
+
+            if (page === 0) {
+                page11.style.display = "none";
+                page1.style.display = "none";
+                page2.style.display = "none";
+                page3.style.display = "none";
+                page4.style.display = "none";
+                page5.style.display = "none";
+                page6.style.display = "none";
+                page7.style.display = "none";
+                page8.style.display = "none";
+                page9.style.display = "none";
+                page10.style.display = "none";
+                page12.style.display = "none";
+
+                page0.style.display = "block";
+                return;
+            }
+            if (page === 1) {
+                page0.style.display = "none";
+                page2.style.display = "none";
+                page3.style.display = "none";
+                page4.style.display = "none";
+                page5.style.display = "none";
+                page6.style.display = "none";
+                page7.style.display = "none";
+                page8.style.display = "none";
+                page9.style.display = "none";
+                page10.style.display = "none";
+                page11.style.display = "none";
+                page12.style.display = "none";
+
+                page1.style.display = "block";
+                return;
+            }
+            if (page === 2) {
+                page0.style.display = "none";
+                page1.style.display = "none";
+                page3.style.display = "none";
+                page4.style.display = "none";
+                page5.style.display = "none";
+                page6.style.display = "none";
+                page7.style.display = "none";
+                page8.style.display = "none";
+                page9.style.display = "none";
+                page10.style.display = "none";
+                page11.style.display = "none";
+                page12.style.display = "none";
+
+                page2.style.display = "block";
+                return;
+            }
+            if (page === 3) {
+                page0.style.display = "none";
+                page1.style.display = "none";
+                page2.style.display = "none";
+                page4.style.display = "none";
+                page5.style.display = "none";
+                page6.style.display = "none";
+                page7.style.display = "none";
+                page8.style.display = "none";
+                page9.style.display = "none";
+                page10.style.display = "none";
+                page11.style.display = "none";
+                page12.style.display = "none";
+
+                page3.style.display = "block";
+                return;
+            }
+            if (page === 4) {
+                page0.style.display = "none";
+                page1.style.display = "none";
+                page2.style.display = "none";
+                page3.style.display = "none";
+                page5.style.display = "none";
+                page6.style.display = "none";
+                page7.style.display = "none";
+                page8.style.display = "none";
+                page9.style.display = "none";
+                page10.style.display = "none";
+                page11.style.display = "none";
+                page12.style.display = "none";
+
+                page4.style.display = "block";
+                return;
+            }
+            if (page === 5) {
+                page0.style.display = "none";
+                page1.style.display = "none";
+                page2.style.display = "none";
+                page3.style.display = "none";
+                page4.style.display = "none";
+                page6.style.display = "none";
+                page7.style.display = "none";
+                page8.style.display = "none";
+                page9.style.display = "none";
+                page10.style.display = "none";
+                page11.style.display = "none";
+                page12.style.display = "none";
+
+                page5.style.display = "block";
+                return;
+            }
+            if (page === 6) {
+                page0.style.display = "none";
+                page1.style.display = "none";
+                page2.style.display = "none";
+                page3.style.display = "none";
+                page4.style.display = "none";
+                page5.style.display = "none";
+                page7.style.display = "none";
+                page8.style.display = "none";
+                page9.style.display = "none";
+                page10.style.display = "none";
+                page11.style.display = "none";
+                page12.style.display = "none";
+
+                page6.style.display = "block";
+                return;
+            }
+            if (page === 7) {
+                page0.style.display = "none";
+                page1.style.display = "none";
+                page2.style.display = "none";
+                page3.style.display = "none";
+                page4.style.display = "none";
+                page5.style.display = "none";
+                page6.style.display = "none";
+                page8.style.display = "none";
+                page9.style.display = "none";
+                page10.style.display = "none";
+                page11.style.display = "none";
+                page12.style.display = "none";
+
+                page7.style.display = "block";
+                return;
+            }
+            if (page === 8) {
+                page0.style.display = "none";
+                page1.style.display = "none";
+                page2.style.display = "none";
+                page3.style.display = "none";
+                page4.style.display = "none";
+                page5.style.display = "none";
+                page6.style.display = "none";
+                page7.style.display = "none";
+                page9.style.display = "none";
+                page10.style.display = "none";
+                page11.style.display = "none";
+                page12.style.display = "none";
+
+                page8.style.display = "block";
+                return;
+            }
+            if (page === 9) {
+                page0.style.display = "none";
+                page1.style.display = "none";
+                page2.style.display = "none";
+                page3.style.display = "none";
+                page4.style.display = "none";
+                page5.style.display = "none";
+                page6.style.display = "none";
+                page7.style.display = "none";
+                page8.style.display = "none";
+                page10.style.display = "none";
+                page11.style.display = "none";
+                page12.style.display = "none";
+
+                page9.style.display = "block";
+                return;
+            }
+
+            if (page === 10) {
+                page0.style.display = "none";
+                page1.style.display = "none";
+                page2.style.display = "none";
+                page3.style.display = "none";
+                page4.style.display = "none";
+                page5.style.display = "none";
+                page6.style.display = "none";
+                page7.style.display = "none";
+                page8.style.display = "none";
+                page9.style.display = "none";
+                page11.style.display = "none";
+                page12.style.display = "none";
+
+                page10.style.display = "block";
+                return;
+            }
+
+            if (page === 11) {
+                page0.style.display = "none";
+                page1.style.display = "none";
+                page2.style.display = "none";
+                page3.style.display = "none";
+                page4.style.display = "none";
+                page5.style.display = "none";
+                page6.style.display = "none";
+                page7.style.display = "none";
+                page8.style.display = "none";
+                page9.style.display = "none";
+                page10.style.display = "none";
+                page12.style.display = "none";
+
+                page11.style.display = "block";
+                return;
+            }
+            if (page === 12) {
+                page0.style.display = "none";
+                page1.style.display = "none";
+                page2.style.display = "none";
+                page3.style.display = "none";
+                page4.style.display = "none";
+                page5.style.display = "none";
+                page6.style.display = "none";
+                page7.style.display = "none";
+                page8.style.display = "none";
+                page9.style.display = "none";
+                page10.style.display = "none";
+                page11.style.display = "none";
+
+                page12.style.display = "block";
+                return;
+            }
+        }
+    </script>
+
+</body>
+</html> 

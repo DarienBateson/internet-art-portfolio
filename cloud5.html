@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uhhhhh...</title>
+</head>
+<body>
+    <style>
+        html {
+            background: url(images/clouds_2.jpeg) no-repeat center center fixed;
+            background-size: cover;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .middle {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 500%) rotate(90deg); 
+            margin: none;
+            border: none;
+        }
+
+        #map-img {
+            width: 100%;
+            height: 100%;
+            background: url("images/map (2).png") no-repeat;
+            background-size: 100%;
+        }
+
+        #map-img:hover {
+            background: url("images/map_open.png") no-repeat;
+            background-size: 100%;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 80px;
+            left: 200px;
+            text-align: left;
+            color: rgb(13, 11, 14);
+            font-family: fasthand;
+            font-size: 28px;
+            overflow: visible;
+            height: 25%;
+            width: 25%;
+        }
+
+        .poppins-regular {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 60px;
+            color: crimson;
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+
+    <!-- Map Button -->
+    <div class="top-left" style="top: 5%; left: 7%; width: 10%; height: 11%;">
+        <a href="map.html">
+            <div id="map-img">
+            </div>
+        </a>
+    </div>
+
+    <!-- Text -->
+    <div class="top-left" style="width: 830px; left: 30%; top: 25%;">
+        <a href="exercise_4/index.html">
+            <p class="poppins-regular">Lost in the clouds? <br><br> Become one!</p>
+        </a>
+    </div>
+   
+</body>
+</html>
